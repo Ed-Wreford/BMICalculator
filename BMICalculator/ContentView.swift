@@ -15,14 +15,13 @@ struct ContentView: View {
     @State private var bmiCalculations = BMICalculations()
     
     var body: some View {
-        
         VStack {
             Image("PublicHealth")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .padding()
+            
             Form {
-                
                 TextField(
                     "Enter your height (cm): ",
                     text: $height
@@ -31,9 +30,10 @@ struct ContentView: View {
                     "Enter your weight (kg): ",
                     text: $weight
                 )
-
+            
                 Text("Your BMI is: \(bmiReturned)")
                 Text("You are \(healthReturned)")
+                
             }
             Section {
                 Button("Calculate BMI", action: { getBmi(); getWeightRange() } )
