@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581E8F1229B74F6B009BF5D4 /* PoundsAndInches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581E8F1129B74F6B009BF5D4 /* PoundsAndInches.swift */; };
 		B407E31E27C788BA00D9C4CA /* BMICalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B407E31D27C788BA00D9C4CA /* BMICalculations.swift */; };
 		B407E32127C7983500D9C4CA /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B407E32027C7983500D9C4CA /* Double.swift */; };
 		B46B62F927C67B07006F31B6 /* BMICalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46B62F827C67B07006F31B6 /* BMICalculatorApp.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		581E8F1129B74F6B009BF5D4 /* PoundsAndInches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoundsAndInches.swift; sourceTree = "<group>"; };
 		B407E31D27C788BA00D9C4CA /* BMICalculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculations.swift; sourceTree = "<group>"; };
 		B407E32027C7983500D9C4CA /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		B46B62F527C67B07006F31B6 /* BMICalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				B407E32027C7983500D9C4CA /* Double.swift */,
+				581E8F1129B74F6B009BF5D4 /* PoundsAndInches.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				B46B62FB27C67B07006F31B6 /* ContentView.swift in Sources */,
 				B407E31E27C788BA00D9C4CA /* BMICalculations.swift in Sources */,
 				B407E32127C7983500D9C4CA /* Double.swift in Sources */,
+				581E8F1229B74F6B009BF5D4 /* PoundsAndInches.swift in Sources */,
 				B46B62F927C67B07006F31B6 /* BMICalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

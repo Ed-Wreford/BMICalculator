@@ -27,7 +27,7 @@ class BMICalculatorTests: XCTestCase {
     func testLookupBmiClassification() throws {
         //arrange
         let calculator = BMICalculations()
-        let testCases = [(bmi: 18.0, expected: "Underweight"),(bmi: 18.5, expected: "Healthy"),(bmi: 24.9, expected: "Healthy"),(bmi: 25, expected: "Overweight"),(bmi: 29.9, expected: "Overweight"),(bmi: 30, expected: "Obese"),(bmi: 40, expected: "Obese")]
+        let testCases = [(bmi: 18.0, expected: "underweight"),(bmi: 18.5, expected: "healthy"),(bmi: 24.9, expected: "healthy"),(bmi: 25, expected: "overweight"),(bmi: 29.9, expected: "overweight"),(bmi: 30, expected: "obese"),(bmi: 40, expected: "obese")]
         
         //act
         for testCase in testCases {
